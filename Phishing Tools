@@ -93,3 +93,21 @@ $ chmod +x zphisher.sh
 Run: 
 $ bash zphisher.sh
 
+8.Lockphish v1.0" released on 05/13/2020, is the pioneering tool for executing phishing attacks on lock screens.
+This tool is specifically crafted to intercept Windows credentials, Android PINs, and iPhone Passcodes by leveraging an HTTPS link.
+Installation:
+[+] git clone https://github.com/Avenge-hacker/Lockphish
+[+] cd Lockphish
+[+] bash lockphish.sh
+
+9.CyberPhish: CyberPhish is a sophisticated and potent phishing tool designed for educational purposes exclusively.
+With a range of customizable features, it offers a collection of phishing email templates tailored to popular social media platforms.
+Installation:
+[+] apt install python3
+[+] pip install colorama
+[+] git clone https://github.com/Cyber-Dioxide/CyberPhish
+[+] cd CyberPhish
+[+] ls
+[+] pip install -r requirements.txt
+[+] python3 CyberPhish.py
+
