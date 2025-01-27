@@ -1,0 +1,95 @@
+1. Weeman is advanced phishing tool available for termux.
+Installation :
+
+$ apt update && upgrade
+$ apt install git
+$ apt install python2
+$ git clone https://github.com/evait-security/weeman
+$ cd weeman
+$ chmod +x *
+Usages:
+$ python2 weeman.py
+$ set url http://target.com
+$ set action_url http://target.com
+$ run
+
+2.Blackeye
+This is one of the most complete Phishing tool in termux.
+Installation :
+
+$ apt update && upgrade
+$ apt install git
+$ apt install curl
+$ git clone https://github.com/An0nUD4Y/blackeye
+$ cd blackeye
+$ chmod +x *
+ Run:-
+ $ bash blackeye.sh
+
+3.SocialFish is a ultimate phishing tool for 
+ Twitter, StackOverFlow, Wordpress, github, google, facebook and so on
+
+Installation:
+$ apt update && upgrade
+$ apt install git
+$ apt install python2
+$ git clone https://github.com/UndeadSec/SocialFish.git 
+$ cd SocialFish
+$ chmod +x *
+$ pip2 install -r requirements.txt
+Usage:-
+Now Select Target and it will generate an URL using Ngrok. Then send this link to victim and wait for cradentials(Username & Password)
+
+4.
+Phishing Tool for 18 social media: Instagram, Facebook, Snapchat, Github, Twitter, Yahoo, Protonmail, Spotify, Netflix, Linkedin, Wordpress, Origin, Steam, Microsoft, InstaFollowers, Gitlab, Pinterest
+
+Installation :
+$ apt update && apt upgrade
+$ apt install git
+$ git clone https://github.com/suljot/shellphish
+$ cd shellphish
+Run :
+$ bash shellphish.sh
+> select your option. It will generates phishing url ..Now send this url to victem for phishing
+
+5.Hidden Eye
+it is a tool that contain a variety of online attacking tools such as Phishing, Keylogger, Information gathering, etc.
+Hidden Eye used to perform plenty of online attacks on user accounts. 
+By using Hidden Eye you can have your target live information such as IP ADDRESS, Geolocation, ISP, Country, & many more.
+
+Installation :
+$ apt-update && apt upgrade -y
+$ pkg install git python php curl openssh grep
+$ git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/HiddenEye.git
+$ chmod 777 HiddenEye
+$ pip install requests
+$ cd HiddenEye
+$ python HiddenEye.py(if not work)
+$ ./HiddenEye.py
+
+6.NexPhisher
+itis an automated Phishing tool made for Termux & Linux .
+The phishing Pages are Taken from Zphisher under GNU General Public License v3.0 . 
+This tool has 37 Phishing Page Templates of 30 Websites.There are 5 Port Forwarding Options including Localhost !!
+
+Installation :
+$ apt update
+$ apt install git -y
+$ git clone https://github.com/htr-tech/nexphisher
+$ cd nexphisher
+$ bash setup
+ Run: 
+$ bash nexphisher
+
+7.
+Zphisher is upgraded version of shellphish.
+
+Installation :
+$ apt update
+$ apt install git php openssh curl -y
+$ git clone https://github.com/htr-tech/zphisher
+$ cd zphisher
+$ chmod +x zphisher.sh
+Run: 
+$ bash zphisher.sh
+
